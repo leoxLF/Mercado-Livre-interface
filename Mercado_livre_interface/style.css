@@ -320,7 +320,90 @@ header{
     height: 120px;
     background-color: #ddd;
 }
+.mercado-play {
+    max-width: 1200px;
+    margin: 60px auto;
+    background: #000;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    color: white;
+}
 
+
+.play-left {
+    width: 50%;
+    padding: 60px;
+    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.6));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.play-badge {
+    background-color: #ffe600;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: fit-content;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.play-left h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gratis {
+    background-color: #00a650;
+    padding: 6px 12px;
+    border-radius: 20px;
+    width: fit-content;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.play-btn {
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.play-btn:hover {
+    background-color: rgba(255,255,255,0.35);
+}
+
+
+.play-right {
+    width: 50%;
+    position: relative;
+}
+
+.play-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reproduzir {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255,255,255,0.8);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 /* FOOTER */
 
